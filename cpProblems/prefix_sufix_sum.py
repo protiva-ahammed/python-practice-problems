@@ -1,7 +1,7 @@
 from typing import List
 
 
-class Solution:
+class Solution1:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         res =[1]*(len(nums)) 
         prefix = 1
