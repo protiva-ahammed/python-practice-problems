@@ -1,5 +1,6 @@
 from cpProblems.prefix_sufix_sum import Solution1
 from cpProblems.longest_consecutive_consequnce import Solution2
+from cpProblems.two_sum import Solution3
 
 def main():
       # Take input from user
@@ -8,9 +9,10 @@ def main():
     # Convert string input to list of integers
     nums = list(map(int, input_str.strip().split()))
     
-    print("Running problem 1:")
-    solve = Solution2()
-    res = solve.longestConsecutive(nums)
+    print("Running problem :")
+    solve = Solution3()
+    # res = solve.longestConsecutive(nums)
+    res = solve.twoSum(nums,7)
     print(res)
 
 
