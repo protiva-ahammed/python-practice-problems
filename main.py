@@ -14,7 +14,7 @@ def main():
     print("Running problem :")
     solve = Solution6()
     # res = solve.longestConsecutive(nums)
-    res = solve.maxArea(nums)
+    res = solve.maxAreaTwoPointer(nums)
     print(res)
 
 
