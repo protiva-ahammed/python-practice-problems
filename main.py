@@ -1,3 +1,4 @@
+from cpProblems.Binary_search import Solution8
 from cpProblems.prefix_sufix_sum import Solution1
 from cpProblems.longest_consecutive_consequnce import Solution2
 from cpProblems.trap_rain_water import Solution7
@@ -13,10 +14,10 @@ def main():
     nums = list(map(int, input_str.strip().split()))
     
     print("Running problem :")
-    solve = Solution7()
+    solve = Solution8()
     # res = solve.longestConsecutive(nums)
     # res = solve.maxAreaTwoPointer(nums)
-    res = solve.trapRainWaterUsingTwoPointer(nums)
+    res = solve.binarySearch(nums, 5)
     print(res)
 
 
