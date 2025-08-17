@@ -34,6 +34,7 @@ def main():
     # res = solve.longestConsecutive(nums)
     # res = solve.maxAreaTwoPointer(nums)
     res = solve.searchMatrixBrute(matrix, 5)
+    res1 = solve.searchMatrixBinary(matrix , 3)
     print(res)
 
 
