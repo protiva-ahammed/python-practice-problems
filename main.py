@@ -7,6 +7,7 @@ from cpProblems.two_sum import Solution3
 from cpProblems.three_sum_two_pointer import Solution5
 from cpProblems.maximum_water_container import Solution6
 from cpProblems.binary_search_rotated_sorted_array import Solution10
+from cpProblems.ti
 def main():
       # Take input from user
     input_str = input("Enter numbers separated by spaces: ")
