@@ -7,7 +7,8 @@ from cpProblems.two_sum import Solution3
 from cpProblems.three_sum_two_pointer import Solution5
 from cpProblems.maximum_water_container import Solution6
 from cpProblems.binary_search_rotated_sorted_array import Solution10
-from cpProblems.ti
+from cpProblems.time_based_key_store import TimeMap
+from cpProblems.vaild_parenthesis import Solution12
 def main():
       # Take input from user
     input_str = input("Enter numbers separated by spaces: ")
@@ -31,12 +32,13 @@ def main():
 
     
     print("Running problem :")
-    solve = Solution10()
+    solve = Solution12()
     # res = solve.longestConsecutive(nums)
     # res = solve.maxAreaTwoPointer(nums)
     # res = solve.searchMatrixBrute(matrix, 5)
     # res1 = solve.searchMatrixBinary(matrix , 3)
-    ans = solve.search(nums , 0)
+    ans = solve.isValid("(}{})]")
+    #search(nums , 0)
     print(ans)
 
 
