@@ -9,6 +9,9 @@ from cpProblems.maximum_water_container import Solution6
 from cpProblems.binary_search_rotated_sorted_array import Solution10
 from cpProblems.time_based_key_store import TimeMap
 from cpProblems.vaild_parenthesis import Solution12
+from cpProblems.min_stack import __init__
+
+
 def main():
       # Take input from user
     input_str = input("Enter numbers separated by spaces: ")
