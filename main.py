@@ -10,15 +10,15 @@ from cpProblems.binary_search_rotated_sorted_array import Solution10
 from cpProblems.time_based_key_store import TimeMap
 from cpProblems.vaild_parenthesis import Solution12
 from cpProblems.min_stack import __init__
-from cpProblems.pol
-
+from cpProblems.polish_notation import Solution13
+from cpProblems.gcd_lcm_recursive import Solution14
 
 def main():
       # Take input from user
-    input_str = input("Enter numbers separated by spaces: ")
+    # input_str = input("Enter numbers separated by spaces: ")
     
     # Convert string input to list of integers
-    nums = list(map(int, input_str.strip().split()))
+    # nums = list(map(int, input_str.strip().split()))
 
     #2D matrix input taking
     # matrix = []
@@ -36,14 +36,16 @@ def main():
 
     
     print("Running problem :")
-    solve = Solution12()
+    solve = Solution14()
     # res = solve.longestConsecutive(nums)
     # res = solve.maxAreaTwoPointer(nums)
     # res = solve.searchMatrixBrute(matrix, 5)
     # res1 = solve.searchMatrixBinary(matrix , 3)
-    ans = solve.isValid("(}{})]")
+    # ans = solve.isValid("(}{})]")
+    ans1 = solve.gcdRec(14,8)
+    ans2 = solve.lcm(56,3)
     #search(nums , 0)
-    print(ans)
+    print(ans1," ",ans2)
 
 
 
