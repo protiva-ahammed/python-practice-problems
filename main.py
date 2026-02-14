@@ -12,6 +12,7 @@ from cpProblems.vaild_parenthesis import Solution12
 from cpProblems.min_stack import __init__
 from cpProblems.polish_notation import Solution13
 from cpProblems.gcd_lcm_recursive import Solution14
+from find_all_substring import Solution15
 
 def main():
       # Take input from user
@@ -36,16 +37,17 @@ def main():
 
     
     print("Running problem :")
-    solve = Solution14()
+    solve = Solution15()
     # res = solve.longestConsecutive(nums)
     # res = solve.maxAreaTwoPointer(nums)
     # res = solve.searchMatrixBrute(matrix, 5)
     # res1 = solve.searchMatrixBinary(matrix , 3)
     # ans = solve.isValid("(}{})]")
-    ans1 = solve.gcdRec(14,8)
-    ans2 = solve.lcm(56,3)
+    # ans1 = solve.gcdRec(14,8)
+    # ans2 = solve.lcm(56,3)
     #search(nums , 0)
-    print(ans1," ",ans2)
+    ans = solve.find_all_sub_str_without_bultin_fun("abbcd")
+    print(ans," ")
 
 
 
