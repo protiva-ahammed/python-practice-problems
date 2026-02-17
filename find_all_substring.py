@@ -1,4 +1,6 @@
 class Solution15:
+
+    # total string to build n(n+1)/2
     def find_all_sub_str_without_bultin_fun(self,s):
         substr =[]
         for i in range(0,len(s)):

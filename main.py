@@ -1,4 +1,5 @@
 from cpProblems.binary_search import Solution8
+from cpProblems.find_max_substr_len_sliding_window import Solution16
 from cpProblems.prefix_sufix_sum import Solution1
 from cpProblems.longest_consecutive_consequnce import Solution2
 from cpProblems.search_2d_matrix import Solution9
@@ -37,7 +38,7 @@ def main():
 
     
     print("Running problem :")
-    solve = Solution15()
+    solve = Solution16()
     # res = solve.longestConsecutive(nums)
     # res = solve.maxAreaTwoPointer(nums)
     # res = solve.searchMatrixBrute(matrix, 5)
@@ -46,7 +47,7 @@ def main():
     # ans1 = solve.gcdRec(14,8)
     # ans2 = solve.lcm(56,3)
     #search(nums , 0)
-    ans = solve.find_all_sub_str_without_bultin_fun("abbcd")
+    ans = solve.lengthOfLongestSubstring("abbcd")
     print(ans," ")
 
 
