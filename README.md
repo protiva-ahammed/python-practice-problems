@@ -1,1 +1,1 @@
-<h5>Problem solving ,Algorithms and DSA implementation codes in python3. Check out the [cpProblems]([https://github.com/protiva-ahammed/python-philo-problems/tree/main/cpProblems])Section</h5>
+<h5>Problem solving, Algorithms, and DSA implementation codes in Python 3. Check out the <a href="https://github.com/protiva-ahammed/python-philo-problems/tree/main/cpProblems">cpProblems</a> section.</h5>
